@@ -33,8 +33,11 @@ class PersonCubit extends Cubit<PersonState> {
     if (_running) return;
     _running = true;
     _lastFetch = Duration.zero;
-    _ticker.start();
-    await _fetchAndAdd();
+
+    await Future.delayed(Duration(seconds: 5), () async {
+      _ticker.start();
+      await _fetchAndAdd();
+    });
   }
 
   Future<void> stopPolling() async {

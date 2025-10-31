@@ -97,7 +97,9 @@ class _HomePageState extends State<HomePage> {
               final items = state.items;
               if (state is PersonInitial ||
                   state is PersonLoading && items.isEmpty) {
-                return const Center(child: CircularProgressIndicator());
+                return const Center(
+                  child: CircularProgressIndicator(color: Colors.white),
+                );
               }
               if (items.isEmpty) {
                 return const WaitingText();
