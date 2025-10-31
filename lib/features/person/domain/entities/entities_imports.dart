@@ -1,0 +1,10 @@
+export 'person_coordinates_entity.dart';
+export 'person_date_entity.dart';
+export 'person_entity.dart';
+export 'person_id_entity.dart';
+export 'person_location_entity.dart';
+export 'person_login_entity.dart';
+export 'person_name_entity.dart';
+export 'person_picture_entity.dart';
+export 'person_street_entity.dart';
+export 'person_timezone_entity.dart';
