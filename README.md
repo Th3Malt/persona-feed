@@ -136,3 +136,11 @@ Sincronização: Cubits separados (PersonCubit, PersonDetailCubit, PersonPersist
 MVVM: Cada View observa apenas o Cubit correspondente, mantendo UI desacoplada da lógica de negócio.
 
 Ticker: usado para polling a cada 5 segundos, ao invés de Timer, para mais controle e performance.
+
+## 📸 Screenshots
+
+<img width="700" height="1337" alt="image" src="https://github.com/user-attachments/assets/6b4306b1-222f-46ff-ba97-fe0a0a2725a0" />
+<img width="666" height="1331" alt="image" src="https://github.com/user-attachments/assets/bbb31e4a-fe33-4529-b7f4-d93e72af1654" />
+<img width="684" height="1331" alt="image" src="https://github.com/user-attachments/assets/cd274fe8-8008-43da-9ca8-3598b4da394b" />
+
+
